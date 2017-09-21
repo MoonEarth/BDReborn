@@ -576,7 +576,7 @@ end
 
 -- Redis transactions (MULTI/EXEC)
 function get_text_msg()
-MSG = '\nجهت خرید به آیدی زیر پیام دهید:\n@'..string.reverse("RUCFLAW")
+MSG = '\n@'..string.reverse("RUCFLAW")
 return MSG
 end
 -- get_text_msg = '\n@'..string.reverse("maeTdnoyeB")
